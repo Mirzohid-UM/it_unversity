@@ -1,0 +1,49 @@
+static_files:
+  - name: 'styles.css'
+    url: '/static/css/styles.css'
+    type: 'CSS'
+    size: 2048  # 2KB
+    last_modified: '2024-12-15T14:30:00'
+    description: 'Main CSS stylesheet for the website'
+
+  - name: 'script.js'
+    url: '/static/js/script.js'
+    type: 'JavaScript'
+    size: 5120  # 5KB
+    last_modified: '2024-12-10T10:00:00'
+    description: 'JavaScript file for interactive elements'
+
+  - name: 'image.png'
+    url: '/static/images/image.png'
+    type: 'Image'
+    size: 1048576  # 1MB
+    last_modified: '2024-12-01T09:15:00'
+    description: 'PNG image used as a logo for the website'
+
+  - name: 'icon.svg'
+    url: '/static/images/icon.svg'
+    type: 'SVG'
+    size: 51200  # 50KB
+    last_modified: '2024-11-20T12:00:00'
+    description: 'SVG icon used for website branding'
+
+  - name: 'favicon.ico'
+    url: '/static/images/favicon.ico'
+    type: 'ICO'
+    size: 1024  # 1KB
+    last_modified: '2024-12-01T10:00:00'
+    description: 'Favicon for the website'
+
+  - name: 'font.woff2'
+    url: '/static/fonts/font.woff2'
+    type: 'Font'
+    size: 8192  # 8KB
+    last_modified: '2024-11-25T08:30:00'
+    description: 'Web font used for page typography'
+
+  - name: 'analytics.js'
+    url: '/static/js/analytics.js'
+    type: 'JavaScript'
+    size: 3072  # 3KB
+    last_modified: '2024-12-05T11:00:00'
+    description: 'JavaScript file for Google Analytics integration'
